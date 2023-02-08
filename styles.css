@@ -1,0 +1,117 @@
+
+body{
+    background-image: url(imagenes/imagen2.jpg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+
+img{
+   
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -270px;
+
+}
+
+header{
+    font-family: 'Inter', sans-serif;
+    color: darkgrey;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: 10px;
+    text-decoration: underline 3px;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    text-decoration: underline 1px;
+    font-size: 1.3rem;
+    color: darkgray
+}
+
+html {
+    font-size: 16px;
+}
+
+.social-bar{
+
+  position: fixed;
+  right: 0;
+  top: 20%;
+  font-size: 1.5rem;  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+
+}
+
+.icon{
+
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+
+}
+
+.icon-facebook{
+    background: #2E406E;
+    
+}
+
+.icon-twitter {
+    background: #339DC5;
+}
+
+.icon-youtube{
+    background: #E83028;
+}
+
+.icon-instagram{
+    background: #3F60A5;
+    
+}
+
+.icon :first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    color: darkgrey;
+    margin-top: 60px;
+    margin-left: 500px;
+    margin-right: 10px;
+    text-decoration: underline 3px;
+}
+
+.HCJ{
+    margin-top: 45px;
+    margin-left: 400px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;;
+    font-size: 2.8rem; 
+}
+
+span{
+
+margin: 1rem;
+padding: 1rem;
+
+}
+
